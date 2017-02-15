@@ -1,0 +1,24 @@
+footer {
+  background-color: $black;
+  color: $white;
+  height: 480px;
+  padding-top: 55px;
+  .social {
+    margin: 0 auto;
+    margin-bottom: 120px;
+    font-size: 44px;
+    width: 300px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: $ye;
+    }
+  }
+  .contact {
+    color: $grey;
+    a {
+      color: $grey;
+    }
+  }
+}

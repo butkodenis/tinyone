@@ -1,0 +1,33 @@
+.slider {
+  background-color: $ye;
+
+}
+
+.elem-slider {
+
+  position: relative;
+  text-align: left;
+  height: 640px;
+  padding-top: 60px;
+ // float: left;
+  h1, h3, p {
+
+    margin-bottom: 16px;
+    width: 400px;
+  }
+  h1 {
+    margin-top: 65px;
+  }
+  img {
+    float: right;
+    display: block;
+    margin-right: 40px;
+  }
+  i {
+    font-size: 44px;
+    margin-right: 40px;
+  }
+  .vendor {
+    margin-top: 36px;
+  }
+}

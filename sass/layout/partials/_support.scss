@@ -1,0 +1,30 @@
+.support {
+  padding: 90px 0 10px 0;
+  background-color: $black;
+  h1, h3 {
+    text-align: center;
+    color: $ye;
+  }
+  h3 {
+    margin: 5px 0 40px 0;
+  }
+  .form  {
+    margin: 0 100px 0 100px ;
+    input {
+      height: 50px;
+      border-radius: 5px ;
+      font-size: $fs-p;
+    }
+    input[type="email"]{
+      width: 580px;
+      margin-right: 20px;
+      padding-left: 25px;
+
+    }
+    input[type="button"]{
+      width: 127px;
+      background-color: $ye;
+      cursor: pointer;
+    }
+  }
+}
