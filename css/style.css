@@ -47,6 +47,12 @@ a {
   padding-right: 10px;
 }
 
+@media (min-width: 768px) {
+  /* line 8, ../sass/layout/_grid.scss */
+  .container {
+    width: 768px;
+  }
+}
 @media (min-width: 992px) {
   /* line 13, ../sass/layout/_grid.scss */
   .container {
@@ -1170,14 +1176,16 @@ a {
 .logo {
   font-size: 30px;
   font-weight: bold;
+  margin-left: 65px;
 }
 
-/* line 8, ../sass/layout/partials/_logo.scss */
+/* line 9, ../sass/layout/partials/_logo.scss */
 .logo-img {
   display: block;
+  position: absolute;
   width: 43px;
   height: 43px;
-  background-image: url("/images/fingerprint.png");
+  background-image: url("../images/fingerprint.png");
   z-index: 5;
   float: left;
   margin: 0 10px 10px 10px;
@@ -1211,7 +1219,6 @@ a {
 
 /* line 1, ../sass/layout/partials/_haeder.scss */
 header {
-  height: 100px;
   background-color: #fbdb00;
   padding: 60px 0 0 0;
 }
@@ -1221,36 +1228,54 @@ header {
   background-color: #fbdb00;
 }
 
-/* line 6, ../sass/layout/partials/_slider.scss */
+/* line 4, ../sass/layout/partials/_slider.scss */
 .elem-slider {
-  position: relative;
   text-align: left;
-  height: 640px;
+  height: 570px;
+  width: 940px;
   padding-top: 60px;
 }
-/* line 13, ../sass/layout/partials/_slider.scss */
-.elem-slider h1, .elem-slider h3, .elem-slider p {
-  margin-bottom: 16px;
-  width: 400px;
-}
-/* line 18, ../sass/layout/partials/_slider.scss */
-.elem-slider h1 {
-  margin-top: 65px;
-}
-/* line 21, ../sass/layout/partials/_slider.scss */
-.elem-slider img {
+/* line 12, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-img {
+  width: 320px;
   float: right;
+  margin-right: 37px;
+}
+/* line 17, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-img img {
   display: block;
   margin-right: 40px;
 }
-/* line 26, ../sass/layout/partials/_slider.scss */
-.elem-slider i {
+/* line 24, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-cont {
+  float: left;
+  margin-left: 12px;
+}
+/* line 27, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-cont h1, .elem-slider .elem-slider-cont h3, .elem-slider .elem-slider-cont p {
+  margin-bottom: 16px;
+  width: 400px;
+}
+/* line 32, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-cont h1 {
+  margin-top: 65px;
+}
+/* line 35, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-cont h3 {
+  width: 320px;
+}
+/* line 39, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-cont i {
   font-size: 44px;
   margin-right: 40px;
 }
-/* line 30, ../sass/layout/partials/_slider.scss */
-.elem-slider .vendor {
+/* line 43, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-cont .vendor {
   margin-top: 36px;
+}
+/* line 45, ../sass/layout/partials/_slider.scss */
+.elem-slider .elem-slider-cont .vendor a {
+  color: #000;
 }
 
 /* line 1, ../sass/layout/partials/_features.scss */
@@ -1353,4 +1378,76 @@ footer .contact {
 /* line 20, ../sass/layout/partials/_foter.scss */
 footer .contact a {
   color: #888;
+}
+
+@media all and (max-width: 992px) {
+  /* line 2, ../sass/media/_media.scss */
+  .elem-slider {
+    width: 100%;
+  }
+  /* line 4, ../sass/media/_media.scss */
+  .elem-slider .elem-slider-img {
+    width: 280px;
+  }
+
+  /* line 8, ../sass/media/_media.scss */
+  .features {
+    margin: 50px 0 10px 0;
+  }
+  /* line 10, ../sass/media/_media.scss */
+  .features h2, .features p {
+    width: 155px;
+  }
+
+  /* line 18, ../sass/media/_media.scss */
+  .support .form {
+    margin: 0 0 0 0;
+  }
+}
+@media all and (max-width: 767px) {
+  /* line 31, ../sass/media/_media.scss */
+  .support .form {
+    margin: 0 0 0 0;
+  }
+  /* line 33, ../sass/media/_media.scss */
+  .support .form input[type="email"] {
+    width: 330px;
+  }
+}
+@media all and (max-width: 425px) {
+  /* line 42, ../sass/media/_media.scss */
+  h1 {
+    font-size: 28px;
+  }
+
+  /* line 48, ../sass/media/_media.scss */
+  header .nav ul li {
+    margin-left: 55px;
+  }
+
+  /* line 55, ../sass/media/_media.scss */
+  .slider .elem-slider-img {
+    display: none;
+  }
+  /* line 62, ../sass/media/_media.scss */
+  .slider .elem-slider-cont h1, .slider .elem-slider-cont h3, .slider .elem-slider-cont p {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  /* line 67, ../sass/media/_media.scss */
+  .slider .elem-slider-cont h1 {
+    margin-top: 20px;
+  }
+  /* line 74, ../sass/media/_media.scss */
+  .slider .elem-slider-cont i {
+    font-size: 44px;
+  }
+  /* line 79, ../sass/media/_media.scss */
+  .slider .elem-slider-cont .vendor {
+    margin: 0 auto;
+  }
+  /* line 82, ../sass/media/_media.scss */
+  .slider .elem-slider-cont .vendor a {
+    color: #000;
+  }
 }

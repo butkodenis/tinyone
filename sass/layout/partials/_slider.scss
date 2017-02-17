@@ -1,33 +1,53 @@
 .slider {
   background-color: $ye;
-
 }
-
 .elem-slider {
 
-  position: relative;
-  text-align: left;
-  height: 640px;
-  padding-top: 60px;
- // float: left;
-  h1, h3, p {
 
-    margin-bottom: 16px;
-    width: 400px;
-  }
-  h1 {
-    margin-top: 65px;
-  }
-  img {
+  text-align: left;
+  height: 570px;
+  width: 940px;
+  padding-top: 60px;
+
+  .elem-slider-img {
+    width: 320px;
+    //height: 470px;
     float: right;
-    display: block;
-    margin-right: 40px;
+    margin-right: 37px;
+    img {
+
+      display: block;
+      margin-right: 40px;
+
+    }
   }
-  i {
-    font-size: 44px;
-    margin-right: 40px;
-  }
-  .vendor {
-    margin-top: 36px;
+  .elem-slider-cont {
+    float: left;
+    margin-left: 12px;
+    h1, h3, p {
+
+      margin-bottom: 16px;
+      width: 400px;
+    }
+    h1 {
+      margin-top: 65px;
+    }
+    h3 {
+      width: 320px;
+    }
+
+    i {
+      font-size: 44px;
+      margin-right: 40px;
+    }
+    .vendor {
+      margin-top: 36px;
+      a {
+        color: $black;
+      }
+
+    }
   }
 }
+
+

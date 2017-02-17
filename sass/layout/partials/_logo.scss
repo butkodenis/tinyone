@@ -2,16 +2,17 @@
 .logo {
   font-size: 30px;
   font-weight: bold;
- // padding-top: 20px;
+  // padding-top: 20px;
+  margin-left: 65px;
 
- }
+}
 .logo-img {
     //content:"";
     display: block;
-
+    position: absolute;
     width: 43px;
     height: 43px;
-    background-image: url("/images/fingerprint.png");
+    background-image: url("../images/fingerprint.png");
     z-index: 5;
     float: left;
     margin: 0 10px 10px 10px;
