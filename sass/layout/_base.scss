@@ -20,3 +20,15 @@ p {
 a {
   text-decoration: none;
 }
+
+.owl-theme .owl-nav {
+  display: none;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 14px;
+  height: 14px;
+}
+.owl-theme .owl-dots{
+  margin-bottom: 37px;
+}
+

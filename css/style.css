@@ -39,6 +39,22 @@ a {
   text-decoration: none;
 }
 
+/* line 24, ../sass/layout/_base.scss */
+.owl-theme .owl-nav {
+  display: none;
+}
+
+/* line 27, ../sass/layout/_base.scss */
+.owl-theme .owl-dots .owl-dot span {
+  width: 14px;
+  height: 14px;
+}
+
+/* line 31, ../sass/layout/_base.scss */
+.owl-theme .owl-dots {
+  margin-bottom: 37px;
+}
+
 /* line 1, ../sass/layout/_grid.scss */
 .container {
   margin-right: auto;
@@ -1231,49 +1247,50 @@ header {
 /* line 4, ../sass/layout/partials/_slider.scss */
 .elem-slider {
   text-align: left;
-  height: 570px;
+  height: 575px;
   width: 940px;
   padding-top: 60px;
+  padding-bottom: 30px;
 }
-/* line 12, ../sass/layout/partials/_slider.scss */
+/* line 13, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-img {
   width: 320px;
   float: right;
   margin-right: 37px;
 }
-/* line 17, ../sass/layout/partials/_slider.scss */
+/* line 18, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-img img {
   display: block;
   margin-right: 40px;
 }
-/* line 24, ../sass/layout/partials/_slider.scss */
+/* line 25, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-cont {
   float: left;
   margin-left: 12px;
 }
-/* line 27, ../sass/layout/partials/_slider.scss */
+/* line 28, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-cont h1, .elem-slider .elem-slider-cont h3, .elem-slider .elem-slider-cont p {
   margin-bottom: 16px;
   width: 400px;
 }
-/* line 32, ../sass/layout/partials/_slider.scss */
+/* line 33, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-cont h1 {
   margin-top: 65px;
 }
-/* line 35, ../sass/layout/partials/_slider.scss */
+/* line 36, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-cont h3 {
   width: 320px;
 }
-/* line 39, ../sass/layout/partials/_slider.scss */
+/* line 40, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-cont i {
   font-size: 44px;
   margin-right: 40px;
 }
-/* line 43, ../sass/layout/partials/_slider.scss */
+/* line 44, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-cont .vendor {
   margin-top: 36px;
 }
-/* line 45, ../sass/layout/partials/_slider.scss */
+/* line 46, ../sass/layout/partials/_slider.scss */
 .elem-slider .elem-slider-cont .vendor a {
   color: #000;
 }
